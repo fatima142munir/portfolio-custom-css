@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+
 import Profile from "./components/profile";
 import Projects from "./components/projects";
 
