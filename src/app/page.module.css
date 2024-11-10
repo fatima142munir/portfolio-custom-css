@@ -1,0 +1,183 @@
+
+/* for navbar container*/
+.navContainer{
+  height: 8vh;
+  max-width: 100vw;
+  padding: 34px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+/* for tabs container */
+.tabs{
+  display: flex;
+}
+/* for portfolio title or logo */
+.logo{
+  font-weight: 800;
+  font-size: 30px;
+  color: #3B1E54;
+}
+/* for tab buttons */
+.tabs div{
+  padding: 10px;
+  font-weight: 600;
+}
+/* for profile section container */
+.profileContainer{
+  height: 308px;
+  width: 89vw;
+  margin: 60px auto;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+/* for profile image styling */
+.image{
+  width: 292px;
+  height: 299px;
+  border-radius: 50%;
+}
+/* for profile text styling */
+.profileText{
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content:center;
+  gap: 20px;
+  align-content: center;
+}
+.profileText h2{
+  font-size: 44px;
+  color: #3B1E54;
+}
+.profileText button{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #3B1E54;
+  color: #EEEEEE;
+  box-shadow: 2px 2px rgb(191, 191, 191);
+}
+.profileText p{
+  font-size: 18px;
+  color: #3B1E54;
+}
+/* design container for project section */
+.projectsContainer{
+  width: 100vw;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #D4BEE4;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.projectHeading{
+  background-color: #D4BEE4;
+  color: #3B1E54;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+}
+.AboutHeading{
+  color: #3B1E54;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+
+}
+
+.projectDiv{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 20px;
+}
+.projectDiv h3{
+  font-size: 26px;
+}
+
+/* for footer section styling */
+.footerContainer{
+  height: 10vh;
+  color: #3B1E54;
+  background-color: #D4BEE4;
+  max-width: 100vw;
+  margin: auto;
+  padding: 40px;
+  align-content: center;
+  justify-items: center;
+  font-size: large;
+  font-weight: 200;
+}
+.footerContainer div{
+  padding: 0px 0px 10px 0px;
+}
+.iconContainer{
+  display: flex;
+  gap: 20px;
+  
+}
+/* for footer icon styling */
+.iconWH{
+  color: #3B1E54;
+  width: 30px;
+  height: 30px;
+}
+/* project image styling */
+.projectImage{
+  width: 400px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px){
+  .logo{
+      font-size: 20px;
+  }
+  .tabs div{
+    padding: 5px;
+    font-weight: 400;
+    font-size: smaller;
+    color: #3B1E54;
+  }
+  .image{
+    position: relative;
+  }
+  .profileContainer{
+    flex-direction: column-reverse;
+    height: 800px;
+  }
+  .profileText{
+    width: 320px;
+    height: 400px;
+  }
+  .projectsContainer{
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .projectImage{
+    width: 300px;
+  }
+  .projectDiv{
+    width: 300px;   
+  }
+  
+}
+@media screen and (min-device-width: 600px) and (max-device-width: 850px) { 
+  .profileContainer{
+    flex-direction: column-reverse;
+    height: 700px;
+  }
+  .profileText{
+    width: 540px;
+    height: 350px;
+  }
+  .projectsContainer{
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
