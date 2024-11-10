@@ -21,12 +21,12 @@ const Projects= ()=>{
                 <div className={styles.projectDiv}>
                     <div><h3>Travel Website Desgn-CSS</h3></div>
                     <div><p>This project is a fully responsive travel website designed to enhance my custom CSS skills, providing a seamless experience across various devices.</p></div>
-                    <div><Link target="_blank" href={'https://dynamic-editable-resume-builder-seven.vercel.app/'}><Image className={styles.projectImage} width={200} height={200} src={"/assets/Capture-3.PNG"} alt="Project Image"></Image></Link></div>
+                    <div><Link target="_blank" href={'https://travel-website-with-custom-css.vercel.app/'}><Image className={styles.projectImage} width={200} height={200} src={"/assets/web-custom-css.PNG"} alt="Project Image"></Image></Link></div>
                 </div>
                 <div className={styles.projectDiv}>
                     <div><h3>Travel Website Design-Tailwind</h3></div>
                     <div><p>This project is a modern, fully responsive travel website crafted using Tailwind CSS. The design emphasizes clean aesthetics and streamlined functionality, with dedicated sections to popular destinations.</p></div>
-                    <div><Link target="_blank" href={'https://bespoke-macaron-65d19a.netlify.app/'}><Image className={styles.projectImage} width={200} height={200} src={"/assets/Capture-4.PNG"} alt="Project Image"></Image></Link></div>
+                    <div><Link target="_blank" href={'https://travel-website-with-tailwind-css.vercel.app/'}><Image className={styles.projectImage} width={200} height={200} src={"/assets/web-tailwind.PNG"} alt="Project Image"></Image></Link></div>
                 </div>
             </div>
         </>
